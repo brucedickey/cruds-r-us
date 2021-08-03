@@ -57,16 +57,18 @@ body {
 }
 .footer {
   background-color: rgb(28, 28, 51);
-  height: 120px;
+  height: 140px;
 }
 #footer-warnings {
   color:rgb(221, 174, 46);
-  width: 460px;
-  margin: 10px auto 0px auto;
+  margin: 10px auto 0px 30px;
   line-height: 1.3rem;
+}
+#footer-warnings li {
+  margin-left: 10px;
 }
 #footer-copyright {
   color: rgb(197, 192, 184);
-  text-align: right;
+  text-align: center;
   margin-right: 30px;
 }
