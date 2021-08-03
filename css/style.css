@@ -1,0 +1,72 @@
+/* Sticky footer */
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+
+/* Content */
+.header-content {
+  color: rgb(197, 192, 184);
+  background-color: rgb(28, 28, 51);
+  height: 84px;
+}
+#title-icon {
+  display: inline-block;
+  margin-left: 50px;
+}
+#title {
+  position: relative;
+  left: 15px;
+  top: 10px;
+  font-size: 2.5rem;
+}
+.subtitle {
+  font-size: 2rem;
+  color: rgb(28, 28, 51);
+}
+#add-btn {
+  float: right;
+  margin-top: 7px;
+}
+#people-table {
+  width: 100%
+}
+.btn-sm {
+  height: 24px;
+  width: 24px;
+  padding: 0px 2px 2px 2px;
+}
+#details-avatar-div {
+  clear: both;
+  width: 200px;
+  margin: auto;
+}
+#details-avatar {
+  width: 200px;
+  height: 200px;
+}
+.footer {
+  background-color: rgb(28, 28, 51);
+  height: 120px;
+}
+#footer-warnings {
+  color:rgb(221, 174, 46);
+  width: 460px;
+  margin: 10px auto 0px auto;
+  line-height: 1.3rem;
+}
+#footer-copyright {
+  color: rgb(197, 192, 184);
+  text-align: right;
+  margin-right: 30px;
+}
